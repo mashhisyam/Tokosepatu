@@ -71,7 +71,7 @@
 									<a class="nav-link" href="shop.php">Shop</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="Keranjang.php">Keranjang</a>
+									<a class="nav-link" href="keranjang.php">Keranjang</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="riwayat.php">History </a>
