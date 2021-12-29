@@ -12,23 +12,22 @@
 	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="data/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="data/fonts/themify/themify-icons.css">
+
 	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="data/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
 	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="data/fonts/elegant-font/html-css/style.css">
 	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="data/vendor/animate/animate.css">
+
 	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="data/vendor/css-hamburgers/hamburgers.min.css">
+	
 	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="data/vendor/animsition/css/animsition.min.css">
 	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="data/vendor/select2/select2.min.css">
 	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="data/vendor/daterangepicker/daterangepicker.css">
+	
 	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="data/vendor/slick/slick.css">
+	
 	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="data/vendor/lightbox2/css/lightbox.min.css">
 	<!--===============================================================================================-->
