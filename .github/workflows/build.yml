@@ -23,7 +23,7 @@ jobs:
 
       - name: 'Build and push'
         run: |
-          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/uas
+          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/uas .
           docker push ${{ secrets.DOCKERHUB_USERNAME}}/uas
       - name: 'Write config'
         run: |
