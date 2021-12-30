@@ -24,7 +24,7 @@ jobs:
       - name: 'Build and push'
         run: |
           docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/tokosepatu .
-          docker push ${{ secrets.DOCKERHUB_USERNAME}}/tokosepatu
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/tokosepatu
       - name: 'Write config'
         run: |
           mkdir ~/.oci
