@@ -1,0 +1,25 @@
+version: '3.3'
+services:
+  web:
+     build:
+       context: ./php
+       dockerfile: ./Tokosepatu/Dockerfile
+     image: php:7.3-apache
+     container_name: kuis
+     volumes:
+       - ./php:/var/www/html/
+     ports:
+       - 8000:80
+
+  db:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+ 
+ adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
