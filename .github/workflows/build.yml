@@ -84,7 +84,9 @@ jobs:
             --raw-output \
             )" >> $GITHUB_ENV
           echo Instance IP: ${{ env.INSTANCE_IP }}
-      - name: 'SSH_KEY'
+      - name: 'Wait For SSH'
+        with:
+          key: ${{ secrets.SSH_KEY }}
         run: |
           while ! nc -w5 -z ${{ env.INSTANCE_IP }} 22; do
           sleep 5
