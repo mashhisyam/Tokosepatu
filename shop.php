@@ -19,7 +19,7 @@ include "koneksi.php";
 				<div class="col-xs-4 col-md-4 col-menu">
 					<div class="thumbnail">
 						<div class="hov-img-zoom">
-						<a href="detail.php?id=<?php echo $produk['id_produk'];?>"><img width="400" height="400">  class="img-responsive" src="foto_produk/<?php echo $produk['foto_produk'];?>" alt=""></a>
+						<a href="detail.php?id=<?php echo $produk['id_produk'];?>"><img width="400" height="400" class="img-responsive" src="foto_produk/<?php echo $produk['foto_produk'];?>" alt="">>  </a>
 						</div>
 						<div class="caption" align="center">
 							<a href="detail.php?id=<?php echo $produk['id_produk'];?>" style="color: black;"><h3><?php echo $produk['nama_produk'];?></h3></a>
